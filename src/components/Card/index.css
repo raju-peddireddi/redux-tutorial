@@ -1,0 +1,55 @@
+.card-container{
+    text-align: center;
+    border: 1px solid grey ;
+    margin-top: 30px;
+    min-height: 300px;
+    min-width: 400px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-element{
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    width: 75%;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.add-btn{
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    background-color: none;
+
+}
+.list-container{
+    list-style-type: none;
+    padding-left: 0;
+    width: 60%;
+}
+.list-item{
+    border: 1px solid grey;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 500;
+}
+.delete-icon{
+    color: red;
+    background-color: none;
+    font-size: 20px;
+}
